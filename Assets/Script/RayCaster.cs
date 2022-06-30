@@ -14,12 +14,17 @@ public class RayCaster : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.tag == "Lamp")
                 {
+                    if (hitInfo.collider.TryGetComponent<Lamp>(out Lamp lamp))
+                    {
+                        lamp.TurnOnOffLight();
+                    }
+
                     Debug.Log("hit Lamp");
                 }
 
                 if (hitInfo.collider.gameObject.tag == "Door")
                 {
-                     if (hitInfo.collider.TryGetComponent<Door>(out Door door))
+                    if (hitInfo.collider.TryGetComponent<Door>(out Door door))
                     {
                         if (door.IsOpen)
                         {

@@ -16,7 +16,12 @@ public class Door : MonoBehaviour
 
     private void Awake()
     {
-        StartRotation = transform.rotation.eulerAngles; 
+        SetDefaultValue();
+    }
+
+    void SetDefaultValue()
+    {
+        StartRotation = transform.rotation.eulerAngles;
         Forward = transform.right;
         StartPosition = transform.position;
     }

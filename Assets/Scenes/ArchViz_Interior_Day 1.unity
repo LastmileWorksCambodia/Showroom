@@ -7572,6 +7572,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2ab49aa87163dba418361e09c97121cf, type: 3}
   m_PrefabInstance: {fileID: 1612930779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1659162614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8327339892195263984, guid: efc6d67ebd883164da940c26ed89cbcd, type: 3}
+  m_PrefabInstance: {fileID: 8327339892516282424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1659162615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659162614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0047d1d19fccde4c9c0e12b1a280fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crossHair: {fileID: 1809033609}
+  baseColor: {r: 1, g: 1, b: 1, a: 0}
+  hoverColor: {r: 0, g: 1, b: 0, a: 0.003921569}
+  rayDistance: 20
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 31
 --- !u!1001 &1667764581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8402,6 +8426,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 013613dcafb996b48ae9556892163cd7, type: 3}
   m_PrefabInstance: {fileID: 1798839271}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1809033609 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7387180066118838320, guid: 688e880ab2a1d2b48bd57239699868d7, type: 3}
+  m_PrefabInstance: {fileID: 830325557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1824723023
 GameObject:
   m_ObjectHideFlags: 0
@@ -9749,6 +9784,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 967240394}
     m_Modifications:
+    - target: {fileID: 113102, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 159174, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 178542, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 187564, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
       propertyPath: m_Name
       value: Lamp_Lexinton
@@ -9796,6 +9843,14 @@ PrefabInstance:
     - target: {fileID: 483396, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037917386, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
+      propertyPath: m_Center.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228064195173182960, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7314709787720102753, guid: 9390b5affdca8394f9ea747a6643267a, type: 3}
       propertyPath: m_Enabled

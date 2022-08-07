@@ -12,11 +12,11 @@ public class ChangeHUDText : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         if (currentSceneIndex == 0)
         {
-            hudText.SetText("Press E to change scene (Day)");
+            hudText.SetText("Press E to change scene. Current scene(Day)");
         }
         if (currentSceneIndex == 1)
         {
-            hudText.SetText("Press E to change scene (Night)");
+            hudText.SetText("Press E to change scene. Current scene(Night)");
         }
         else
         {

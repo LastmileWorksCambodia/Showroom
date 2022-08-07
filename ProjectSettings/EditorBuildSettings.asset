@@ -6,10 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Imported Assets/ArchVizPRO_Interior_Vol.1/3D SCENE/ArchViz_Interior_Day
-      1.unity
+    path: Assets/Scenes/ArchViz_Interior_Day 1.unity
     guid: 08b260af25667fa489f703c454a9c98c
   - enabled: 1
-    path: Assets/Imported Assets/ArchVizPRO_Interior_Vol.1/3D SCENE/ArchViz_Interior_Night.unity
+    path: Assets/Scenes/ArchViz_Interior_Night.unity
     guid: d9ae3fb776d51d641924494e6dd48e1f
   m_configObjects: {}
